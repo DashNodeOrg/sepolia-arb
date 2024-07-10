@@ -17,7 +17,7 @@ services:
       --ws.origins=*
       --init.url="https://snapshot.arbitrum.foundation/sepolia/nitro-pruned.tar"
     volumes:
-      - /home/cnid/arb/data:/home/user/.arbitrum
+      - /home/arb-data:/home/user/.arbitrum
     ports:
       - 20547:8547 # json-rpc endpoint
       - 20548:8548 # ws endpoint
