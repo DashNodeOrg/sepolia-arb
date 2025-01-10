@@ -3,7 +3,7 @@ services:
     container_name: arb-sepolia
     stdin_open: true
     tty: true
-    image: offchainlabs/nitro-node:v3.0.3-3ecd01e
+    image: offchainlabs/nitro-node:v3.3.2-9d70997
     command:
       --chain.id=421614
       --parent-chain.connection.url=<your eth-sepolia endpoint default port 8545>
