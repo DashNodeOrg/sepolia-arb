@@ -39,7 +39,7 @@
     ```
 - **Clone this repo to your server and start all docker containers**
     ```
-    git clone https://github.com/CryptoNodeID/sepolia-arb.git
+    git clone https://github.com/DashNodeOrg/sepolia-arb.git
     cd sepolia-arb
     docker compose up -d
     ```
